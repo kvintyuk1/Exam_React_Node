@@ -22,36 +22,37 @@ mongoose
   .then(() => console.log('Підключено до MongoDB'))
   .catch((err) => console.error('Помилка підключення до MongoDB:', err));
 
-app.post('/auth/register', async (req, res) => {
-  try {
-    const { name, email, password } = req.body;
-    const user = new User({ name, email, password });
-    await user.save();
-    res.status(201).json({ message: 'Користувача успішно зареєстровано' });
-  } catch (err) {
-    res.status(400).json({ error: 'Помилка реєстрації користувача' });
-  }
-});
-
-app.post('/auth/login', async (req, res) => {
-  try {
-    const { email, password } = req.body;
-    const user = await User.findOne({ email });
-    if (!user) {
-      return res.status(404).json({ error: 'Користувач не знайдений' });
+  app.post('/auth/register', async (req, res) => {
+    try {
+      const { name, email, password } = req.body;
+      const user = new User({ name, email, password });
+      await user.save();
+      res.status(201).json({ message: 'User successfully registered' });
+    } catch (err) {
+      res.status(400).json({ error: 'User registration error' });
     }
-
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) {
-      return res.status(401).json({ error: 'Невірні облікові дані' });
+  });
+  
+  app.post('/auth/login', async (req, res) => {
+    try {
+      const { email, password } = req.body;
+      const user = await User.findOne({ email });
+      if (!user) {
+        return res.status(404).json({ error: 'User not found' });
+      }
+  
+      const isMatch = await bcrypt.compare(password, user.password);
+      if (!isMatch) {
+        return res.status(401).json({ error: 'Invalid credentials' });
+      }
+  
+      const token = jwt.sign({ id: user._id }, secret, { expiresIn: '1h' });
+      res.status(200).json({ token, user: { id: user._id, name: user.name } });
+    } catch (err) {
+      res.status(500).json({ error: 'Server error' });
     }
-
-    const token = jwt.sign({ id: user._id }, secret, { expiresIn: '1h' });
-    res.status(200).json({ token, user: { id: user._id, name: user.name } });
-  } catch (err) {
-    res.status(500).json({ error: 'Серверна помилка' });
-  }
-});
+  });
+  
 
 app.get('/api/products', async (req, res) => {
   const { category } = req.query;
