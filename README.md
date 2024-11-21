@@ -7,8 +7,8 @@
 
 ## Project Details
 
-- **Backend Technologies**: Node.js, Express.js, MongoDB  
-- **Frontend Technologies**: React, Bootstrap  
+- **Backend Technologies**: Node.js, MongoDB  
+- **Frontend Technologies**: React  
 - **Database**: MongoDB  
 - **Authentication**: JWT (JSON Web Token)  
 - **Project Type**: Full-stack Web Application
