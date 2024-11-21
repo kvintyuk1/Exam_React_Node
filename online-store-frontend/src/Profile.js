@@ -6,23 +6,41 @@ import './Profile.css';
 function Profile() {
   const [user, setUser] = useState(null);
   const [orders, setOrders] = useState([]);
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const token = localStorage.getItem('token');
-    axios
-      .get('http://localhost:5000/auth/profile', {
-        headers: { Authorization: `Bearer ${token}` },
-      })
-      .then((response) => setUser(response.data))
-      .catch((error) => console.error(error));
+    
+    if (!token) {
+      navigate('/auth');
+    } else {
+      axios
+        .get('http://localhost:5000/auth/profile', {
+          headers: { Authorization: `Bearer ${token}` },
+        })
+        .then((response) => setUser(response.data))
+        .catch((error) => {
+          console.error(error);
+          navigate('/auth');
+        });
 
-    axios
-      .get('http://localhost:5000/api/orders', {
-        headers: { Authorization: `Bearer ${token}` },
-      })
-      .then((response) => setOrders(response.data))
-      .catch((error) => console.error(error));
-  }, []);
+      axios
+        .get('http://localhost:5000/api/orders', {
+          headers: { Authorization: `Bearer ${token}` },
+        })
+        .then((response) => setOrders(response.data))
+        .catch((error) => console.error(error));
+    }
+  }, [navigate]); 
+
+  const logout = () => {
+    localStorage.removeItem('token');  
+    navigate('/auth'); 
+  };
+
+  if (!user) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="profile-container">
@@ -53,6 +71,8 @@ function Profile() {
       ) : (
         <p className="no-orders">No orders found.</p>
       )}
+      
+      <button className="logout-button" onClick={logout}>Logout</button>
     </div>
   );
 }
