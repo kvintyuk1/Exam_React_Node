@@ -1,0 +1,390 @@
+[{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51672"
+  },
+  "name": "ASUS ROG Strix G17 Laptop",
+  "description": "Gaming laptop with AMD Ryzen 9 processor, 32GB RAM, 1TB SSD, and NVIDIA RTX 4060 graphics card.",
+  "price": 2159.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/713ED250-BDED-407C-BFB1-C20C1ADE98C3/V1/img/ioport-main.png"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51673"
+  },
+  "name": "ASUS ROG Strix Scar 18 Laptop",
+  "description": "Gaming laptop with Intel Core i9 processor, 96GB RAM, 4TB SSD, and NVIDIA RTX 4090 graphics card.",
+  "price": 6749.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/621ECFA4-AFC8-4B9C-AC50-C7D8A292D62D/v1/img/performance/engine-pd.png"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51674"
+  },
+  "name": "ASUS ROG Strix Scar 17 X3D Laptop",
+  "description": "Gaming laptop with AMD Ryzen 9 processor, 32GB RAM, 2TB SSD, and NVIDIA RTX 4080 graphics card.",
+  "price": 5939.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/B5398AF0-9C4D-439D-8904-6C8C7E766431/v1/images/large/1x/3__performance_laptop.png"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51675"
+  },
+  "name": "ASUS ROG Zephyrus M16 AnimeMatrix Laptop",
+  "description": "Gaming laptop with Intel Core i9 processor, 32GB RAM, 2TB SSD, and NVIDIA RTX 4080 graphics card.",
+  "price": 5679.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/C29CCD6D-9F8B-403F-AFB6-AA0C8680F397/v1/images/software-laptop.webp"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51676"
+  },
+  "name": "ASUS ROG Strix Scope II RX Red UKR Keyboard",
+  "description": "Gaming keyboard with red switches for fast response during gameplay.",
+  "price": 119.77,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://gamingpc.com.ua/image/cache/component-description/36177b401b293614f53d8adc48b73d0c-590.webp"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51677"
+  },
+  "name": "ASUS ROG Falchion ACE HFX Black Keyboard",
+  "description": "Compact gaming keyboard with mechanical switches for maximum comfort.",
+  "price": 202.33,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/21597AB2-8BDD-4E12-83EC-45C6B2DC9B03"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51678"
+  },
+  "name": "ASUS ROG Falchion RX Low Profile Red EN White Keyboard",
+  "description": "Mechanical keyboard with low profile and red switches for better control.",
+  "price": 229.33,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/358CBEB5-3333-4C33-AFDA-F35880F28CD9/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed51679"
+  },
+  "name": "ASUS ROG Strix G15 Laptop",
+  "description": "Gaming laptop with AMD Ryzen 7 6800H processor and NVIDIA RTX 3070 graphics card.",
+  "price": 3779.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/8B74E7EE-B66A-4420-894E-3C3B980312EE/v2/img/design/color/strix-g-2022-pink.png"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed5167a"
+  },
+  "name": "ASUS ROG Zephyrus G14 Laptop",
+  "description": "Laptop with AMD Ryzen 9 processor and NVIDIA RTX 3060 graphics card.",
+  "price": 4319.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/8D12A135-FBA7-4C6F-BB9D-A654F4398FFD/w1000/h732"
+},
+{
+  "_id": {
+    "$oid": "673a4ba35165e84eeed5167b"
+  },
+  "name": "ASUS ROG Flow Z13 Laptop",
+  "description": "Hybrid gaming laptop that transforms into a tablet.",
+  "price": 4859.97,
+  "category": "Gaming Laptops",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/548DDA2B-F901-4925-BEE4-336BBA8C5C21"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5167d"
+  },
+  "name": "ASUS ROG Gladius III Wireless Gaming Mouse",
+  "description": "Wireless gaming mouse with a high-precision sensor and ergonomic design.",
+  "price": 129.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/56F8A13F-F1E2-4033-A216-5BAC89D0A205"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5167e"
+  },
+  "name": "ASUS ROG Chakram X Gaming Mouse",
+  "description": "High-performance gaming mouse with customizable RGB lighting and a joystick.",
+  "price": 179.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/1D8DDBF3-F053-40BB-96F4-CD8712A80EEB/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5167f"
+  },
+  "name": "ASUS ROG Spatha X Wireless Gaming Mouse",
+  "description": "Wireless gaming mouse with 12 programmable buttons and RGB lighting.",
+  "price": 199.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/1D6EF918-6D35-4727-BD7A-1DA2908ABB58"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51680"
+  },
+  "name": "ASUS ROG Harpe Ace Wireless Gaming Mouse",
+  "description": "Ultra-lightweight wireless gaming mouse with flexible ambidextrous design.",
+  "price": 89.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/0F9B888C-4649-4829-B3C9-BDD8734907A4"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51681"
+  },
+  "name": "ASUS ROG Keris Wireless Gaming Mouse",
+  "description": "Wireless gaming mouse with precision optical sensor and ergonomic design.",
+  "price": 119.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/94A80239-F7E2-443F-BE90-3F2AF6DDEFFE"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51682"
+  },
+  "name": "ASUS ROG Pugio II Wireless Gaming Mouse",
+  "description": "Customizable wireless gaming mouse with high-precision sensor and durable switches.",
+  "price": 149.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/371BD89A-4BBF-4106-B795-4AAC25CBAD38/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51683"
+  },
+  "name": "ASUS ROG Strix Impact II Optical Gaming Mouse",
+  "description": "Ambidextrous gaming mouse with responsive optical sensor and ergonomic shape.",
+  "price": 49.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/513DF0D4-23D7-40DF-A19A-9D545BC8E680/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51684"
+  },
+  "name": "ASUS ROG Scorpion X Gaming Mouse",
+  "description": "Precision gaming mouse with ergonomic design and customizable weights.",
+  "price": 79.99,
+  "category": "Gaming Mice",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/1D6EF918-6D35-4727-BD7A-1DA2908ABB58/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51687"
+  },
+  "name": "ASUS ROG Delta S RGB Gaming Headset",
+  "description": "High-performance gaming headset with virtual 7.1 surround sound and customizable RGB lighting.",
+  "price": 129.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/28EFE950-BAD3-4B17-9C43-05F86CA7B6B5"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51689"
+  },
+  "name": "ASUS ROG Theta 7.1 Gaming Headset",
+  "description": "7.1 surround sound headset with premium drivers for an immersive audio experience.",
+  "price": 249.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/10C53CD7-221E-45E3-924B-473017560B7F"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5168a"
+  },
+  "name": "ASUS ROG Cetra II Core Gaming Headset",
+  "description": "In-ear gaming headset with immersive sound and noise cancellation.",
+  "price": 89.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/CF0DC8B4-EA9A-4CD9-85F6-E382ECC17324/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5168b"
+  },
+  "name": "ASUS ROG Strix Go 2.4 Gaming Headset",
+  "description": "Wireless gaming headset with 2.4GHz wireless connection and up to 25 hours of battery life.",
+  "price": 169.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/B47A68E6-068E-47C6-A67A-84DDC7C7D733/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed5168d"
+  },
+  "name": "ASUS ROG Strix Fusion 500 Gaming Headset",
+  "description": "Gaming headset with high-fidelity audio and built-in DAC for better sound performance.",
+  "price": 139.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/0B6F7E0D-DE7D-48BC-BBB1-75F35E2D5CC9"
+},
+{
+  "_id": {
+    "$oid": "673a78385165e84eeed51691"
+  },
+  "name": "ASUS ROG Delta Core Gaming Headset",
+  "description": "Comfortable gaming headset with 50mm drivers for deep, clear audio.",
+  "price": 99.99,
+  "category": "Gaming Headsets",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/6AA18038-5009-46AE-8E57-46A18AFE3C89/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f86"
+  },
+  "name": "ASUS ROG Phone 6",
+  "description": "Smartphone with Qualcomm Snapdragon 8+ Gen 1, 16GB RAM, and 512GB storage.",
+  "price": 999,
+  "category": "Gaming Phones",
+  "imageUrl": "https://hires.com.ua/content/images/20/568x568l80mc0/asus-rog-phone-6-12-128gb-phantom-black-14391383532710.png"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f87"
+  },
+  "name": "ASUS ROG Phone 5s Pro",
+  "description": "Smartphone with Qualcomm Snapdragon 888+, 18GB RAM, and 512GB storage.",
+  "price": 899,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/7E04DF02-69CB-4425-A15E-A509A3C61220/w260"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f88"
+  },
+  "name": "ASUS ROG Phone 5s",
+  "description": "Smartphone with Qualcomm Snapdragon 888+, 16GB RAM, and 512GB storage.",
+  "price": 799,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/CCC66377-6DF8-4F08-B29F-BFFBD3ACD077"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f89"
+  },
+  "name": "ASUS ROG Phone 5 Ultimate",
+  "description": "Smartphone with Qualcomm Snapdragon 888, 18GB RAM, and 512GB storage.",
+  "price": 899,
+  "category": "Gaming Phones",
+  "imageUrl": "https://www.notebookcheck-ru.com/uploads/tx_nbc2/AsusROGPhone5Ultimate__1_.png"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f8a"
+  },
+  "name": "ASUS ROG Phone 5",
+  "description": "Smartphone with Qualcomm Snapdragon 888, 16GB RAM, and 256GB storage.",
+  "price": 749,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/DA13DF35-344E-4922-9347-9E637825F809/w260"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f8b"
+  },
+  "name": "ASUS ROG Phone 3",
+  "description": "Smartphone with Qualcomm Snapdragon 865+, 12GB RAM, and 512GB storage.",
+  "price": 699,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/14F011DE-4749-4DF8-86C1-C4CFF8E7160A"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f8c"
+  },
+  "name": "ASUS ROG Phone 2",
+  "description": "Smartphone with Qualcomm Snapdragon 855+, 12GB RAM, and 512GB storage.",
+  "price": 599,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/8E8DF3C3-3089-4B79-B6ED-A91388BDD5B5"
+},
+{
+  "_id": {
+    "$oid": "673cb57bfec4d5b264756f8d"
+  },
+  "name": "ASUS ROG Phone ZS600KL",
+  "description": "Smartphone with Qualcomm Snapdragon 845, 8GB RAM, and 128GB storage.",
+  "price": 499,
+  "category": "Gaming Phones",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/79867C9B-8893-45F3-89E2-C3DD17E970EC"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123fa"
+  },
+  "name": "ASUS ROG Strix Flare RGB Mechanical Keyboard",
+  "description": "Mechanical keyboard with RGB lighting and Cherry MX switches.",
+  "price": 149.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/7001B47D-BD67-4A07-BD1D-0ECE65169330/w717/h525"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123fb"
+  },
+  "name": "ASUS ROG Azoth Wireless Mechanical Keyboard",
+  "description": "Wireless mechanical keyboard with low latency and customizable RGB lighting.",
+  "price": 249.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/files/media/2C7F3DE4-F638-4ED3-8A25-83ABBBFF5F3F/v1/img/kv/pd-base.png"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123fc"
+  },
+  "name": "ASUS ROG Claymore II Modular Keyboard",
+  "description": "Modular keyboard with customizable key switches and RGB lighting.",
+  "price": 199.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/7BDBE811-9350-400C-BE5E-AB1614972EC4"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123fd"
+  },
+  "name": "ASUS ROG Strix Scope TKL RGB Mechanical Keyboard",
+  "description": "Tenkeyless mechanical keyboard with RGB lighting and Cherry MX switches.",
+  "price": 129.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/9A843F86-E720-43D0-AC04-9BBFD83B1A1C"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123fe"
+  },
+  "name": "ASUS ROG Impact II Compact Gaming Keyboard",
+  "description": "Compact gaming keyboard with RGB lighting and programmable keys.",
+  "price": 109.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/9DBE7FB5-C52B-407C-99FE-CCDCDD7AC04E"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f5123ff"
+  },
+  "name": "ASUS ROG Strix Scope RX Wireless Mechanical Keyboard",
+  "description": "Wireless mechanical keyboard with ROG RX Optical Mechanical switches.",
+  "price": 169.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/DCBD7A8C-2AC6-4D1C-ABA8-CBE3C2C4E41E"
+},
+{
+  "_id": {
+    "$oid": "673cc06b13f9042d6f512400"
+  },
+  "name": "ASUS ROG Zenith Mechanical Gaming Keyboard",
+  "description": "Premium mechanical keyboard with Cherry MX switches and RGB lighting.",
+  "price": 229.99,
+  "category": "Gaming Accessories",
+  "imageUrl": "https://dlcdnwebimgs.asus.com/gain/F27F6EA6-8BA7-4B35-9BCD-CDDB2CA78639/w717/h525"
+}]
